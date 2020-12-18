@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="bold"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+
+
+    <!---de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/messages_Profile_Image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/defaultpic"
+        android:layout_marginTop="1dp"
+        android:layout_alignParentStart="true" />-->
+
+    <TextView
+        android:id="@+id/message_Text"
+        android:layout_width="374dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/message_text_background"
+        android:padding="15dp"
+        android:text="@string/message_part"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/messageImageView"
+        android:layout_width="314dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/message_Text"
+        android:layout_alignLeft="@id/message_Text"
+        android:layout_alignTop="@+id/message_Text"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="9dp"
+        android:padding="15dp"
+        android:scaleType="centerCrop" />
+
+
+</RelativeLayout>
