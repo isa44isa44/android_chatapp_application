@@ -1,1 +1,1 @@
-# android_chatapp_application
+# This is a Chat application that made for a School Project
