@@ -1,1 +1,1 @@
-# This is a Chat application that made for a School Project
+# Used database : Google Firebase. Change with your own connection string. Made for school final project
